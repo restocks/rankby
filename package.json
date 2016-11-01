@@ -1,6 +1,6 @@
 {
   "name": "rankby",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rank objects by a key",
   "main": "lib/index.js",
   "scripts": {
