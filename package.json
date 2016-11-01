@@ -1,0 +1,32 @@
+{
+  "name": "rankby",
+  "version": "1.0.0",
+  "description": "Rank objects by a key",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "./node_modules/.bin/eslint src/ test/",
+    "test": "npm run build && ./node_modules/.bin/mocha --reporter spec --timeout 25000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Restocks/rankby.git"
+  },
+  "author": "Restocks, Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Restocks/rankby/issues"
+  },
+  "homepage": "https://github.com/Restocks/rankby#readme",
+  "dependencies": {
+    "lodash": "^4.16.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1",
+    "mocha": "^3.1.2"
+  }
+}
